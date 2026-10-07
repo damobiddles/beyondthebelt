@@ -130,6 +130,22 @@ add('story-03-event-template-1080x1920', 1080, 1920, 'ink stitch',
   `<p class="abs" style="left:70px;top:1220px;width:900px;font-size:42px;font-weight:600">${TEXT.eventDetail}</p>` +
   img(logo.markDark, 'left:70px;top:1420px;width:120px'));
 
+// ---- Photo posts (real academy photos in images/) ---------------------------
+const photo = (file, pos, extra = '') => `<img class="abs" src="${f('images/' + file)}" style="inset:0;width:100%;height:100%;object-fit:cover;object-position:${pos};${extra}">`;
+const fade = (from) => `<div class="abs" style="inset:0;background:linear-gradient(to top,rgba(8,8,8,.92) 0%,rgba(8,8,8,.55) ${from}%,rgba(8,8,8,0) 75%)"></div>`;
+add('post-05-photo-welcome-1080x1350', 1080, 1350, 'ink',
+  photo('black-belts.jpg', '50% 30%') + fade(30) +
+  `<h1 class="abs" style="left:70px;top:900px;font-size:104px">Life is bigger<br><em>than the belt.</em></h1>` + foot('dark'));
+add('post-06-photo-pathway-1080x1350', 1080, 1350, 'ink',
+  photo('training-hold.jpg', '60% 30%') + fade(35) +
+  `<div class="abs" style="left:70px;top:90px"><div class="eyebrow" style="color:#fff">The pathway</div></div>` +
+  `<h1 class="abs" style="left:70px;top:870px;font-size:120px">Show up.<br>Learn. Lead.<br><em>Give back.</em></h1>` + foot('dark'));
+add('story-04-photo-1080x1920', 1080, 1920, 'ink',
+  photo('black-belts.jpg', '50% 25%') + fade(40) +
+  img(logo.markDark, 'right:70px;top:1540px;width:130px') +
+  `<h1 class="abs" style="left:70px;top:1270px;font-size:108px">Life is bigger <em>than the belt.</em></h1>` +
+  `<div class="abs" style="left:70px;top:1560px"><span class="pill">Donate · link in bio</span></div>`);
+
 // ---- Logo PNGs (transparent) ------------------------------------------------
 const logoPng = (name, src, w, h) => add(name, w, h, '', img(src, `left:0;top:0;width:${w}px;height:${h}px`), 'body{background:transparent!important}');
 logoPng('logo-1200', logo.full, 1200, 1319);
