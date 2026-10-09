@@ -94,7 +94,7 @@ add('post-01-welcome-1080x1350', 1080, 1350, 'ink stitch',
   `<h1 class="abs" style="left:70px;top:860px;font-size:112px">Life is bigger<br><em>than the belt.</em></h1>` + foot('dark'));
 add('post-02-donate-1080x1350', 1080, 1350, 'red stitch',
   `<div class="abs" style="left:70px;top:90px"><div class="eyebrow">Donate</div></div>` +
-  `<h1 class="abs" style="left:70px;top:210px;font-size:128px">Give a young person a place to <em>belong.</em></h1>` +
+  `<h1 class="abs" style="left:70px;top:210px;font-size:128px">Give someone a place to <em>belong.</em></h1>` +
   `<p class="abs" style="left:70px;top:860px;width:800px;font-size:36px;line-height:1.4;font-weight:500">Your gift keeps places free and the doors open at the academy.</p>` +
   `<div class="abs" style="left:70px;top:1030px"><span class="pill">Donate now</span></div>` + foot());
 add('post-03-values-1080x1350', 1080, 1350, 'ink stitch',
@@ -103,7 +103,7 @@ add('post-03-values-1080x1350', 1080, 1350, 'ink stitch',
 add('post-04-volunteer-1080x1350', 1080, 1350, 'bone stitch',
   `<div class="abs" style="left:70px;top:90px"><div class="eyebrow" style="color:var(--deep)">Get involved</div></div>` +
   `<h1 class="abs" style="left:70px;top:210px;font-size:150px">We need you <em style="color:var(--deep)">on the mats.</em></h1>` +
-  `<p class="abs" style="left:70px;top:800px;width:880px;font-size:38px;line-height:1.4;font-weight:500">Coaches, helpers, fundraisers, creatives. Bring your skills and help us reach more young people.</p>` +
+  `<p class="abs" style="left:70px;top:800px;width:880px;font-size:38px;line-height:1.4;font-weight:500">Coaches, helpers, fundraisers, creatives. Bring your skills and help us reach more people.</p>` +
   `<div class="abs" style="left:70px;top:1030px"><span class="pill">Join the team</span></div>` + foot('dark').replace('markDark', '').replace(/src="[^"]*"/, `src="${logo.mark}"`));
 add('template-quote-1080x1350', 1080, 1350, 'ink stitch',
   `<div class="abs m" style="left:60px;top:40px;font-size:420px;color:var(--red);line-height:1">“</div>` +
@@ -121,7 +121,7 @@ add('story-01-welcome-1080x1920', 1080, 1920, 'ink stitch',
   `<h1 class="abs" style="left:70px;top:1260px;font-size:104px">Life is bigger <em>than the belt.</em></h1>`);
 add('story-02-donate-1080x1920', 1080, 1920, 'red stitch',
   img(logo.markWhite, 'left:340px;top:300px;width:400px') +
-  `<h1 class="abs" style="left:70px;top:760px;font-size:106px">Give a young person a place to <em>belong.</em></h1>` +
+  `<h1 class="abs" style="left:70px;top:760px;font-size:106px">Give someone a place to <em>belong.</em></h1>` +
   `<div class="abs" style="left:70px;top:1380px"><span class="pill">Donate · link in bio</span></div>`);
 add('story-03-event-template-1080x1920', 1080, 1920, 'ink stitch',
   `<div class="abs" style="left:70px;top:300px"><div class="eyebrow">Save the date</div></div>` +

@@ -28,7 +28,7 @@ Keep clear space around the logo equal to the height of the red head. Don't stre
 Both are open-source (SIL OFL) and self-hosted in `fonts/`.
 
 ## Voice
-Warm, direct and proud. Short sentences. Talk about young people and community, not charity jargon. Signature line: **"Life is bigger than the belt."**
+Warm, direct and proud. Short sentences. Speak to people of all ages and backgrounds, and talk about community rather than charity jargon. Signature line: **"Life is bigger than the belt."**
 
 ## Social image sizes
 | File | Platform |
