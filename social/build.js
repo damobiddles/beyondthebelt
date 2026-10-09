@@ -105,6 +105,10 @@ add('post-04-volunteer-1080x1350', 1080, 1350, 'bone stitch',
   `<h1 class="abs" style="left:70px;top:210px;font-size:150px">We need you <em style="color:var(--deep)">on the mats.</em></h1>` +
   `<p class="abs" style="left:70px;top:800px;width:880px;font-size:38px;line-height:1.4;font-weight:500">Coaches, helpers, fundraisers, creatives. Bring your skills and help us reach more people.</p>` +
   `<div class="abs" style="left:70px;top:1030px"><span class="pill">Join the team</span></div>` + foot('dark').replace('markDark', '').replace(/src="[^"]*"/, `src="${logo.mark}"`));
+add('post-08-community-funded-1080x1350', 1080, 1350, 'red stitch',
+  `<div class="abs" style="left:70px;top:90px"><div class="eyebrow">Community funded</div></div>` +
+  `<h1 class="abs" style="left:70px;top:210px;font-size:90px">Members give<br>what they can.<br>Businesses<br>back it.<br><em>Everyone stays<br>on the mats.</em></h1>` +
+  `<p class="abs" style="left:70px;top:1040px;width:860px;font-size:34px;line-height:1.4;font-weight:500">Beyond the Belt is powered by the people it supports. Give, sponsor or fundraise with us.</p>` + foot());
 add('template-quote-1080x1350', 1080, 1350, 'ink stitch',
   `<div class="abs m" style="left:60px;top:40px;font-size:420px;color:var(--red);line-height:1">“</div>` +
   `<h2 class="abs" style="left:70px;top:380px;width:940px;font-size:80px;line-height:1.08;text-transform:none;letter-spacing:-.03em">${TEXT.quote}</h2>` +

@@ -147,7 +147,7 @@ section { padding: 96px 0; }
 .step p { color: #c9c6be; font-size: .98rem; margin: 0; }
 
 /* Get involved */
-.involved .cards { grid-template-columns: repeat(3, 1fr); }
+.involved .cards { grid-template-columns: repeat(4, 1fr); }
 .involved .card { display: flex; flex-direction: column; padding-bottom: 34px; }
 .involved .card p { flex: 1; margin-bottom: 22px; }
 .involved .card .btn { align-self: flex-start; padding: 12px 20px; font-size: .78rem; }
