@@ -95,7 +95,7 @@ add('post-01-welcome-1080x1350', 1080, 1350, 'ink stitch',
 add('post-02-donate-1080x1350', 1080, 1350, 'red stitch',
   `<div class="abs" style="left:70px;top:90px"><div class="eyebrow">Donate</div></div>` +
   `<h1 class="abs" style="left:70px;top:210px;font-size:128px">Give someone a place to <em>belong.</em></h1>` +
-  `<p class="abs" style="left:70px;top:860px;width:800px;font-size:36px;line-height:1.4;font-weight:500">Your gift keeps places free and the doors open at the academy.</p>` +
+  `<p class="abs" style="left:70px;top:860px;width:800px;font-size:36px;line-height:1.4;font-weight:500">Your gift helps keep people training, and keeps them connected.</p>` +
   `<div class="abs" style="left:70px;top:1030px"><span class="pill">Donate now</span></div>` + foot());
 add('post-03-values-1080x1350', 1080, 1350, 'ink stitch',
   `<div class="abs" style="left:70px;top:90px"><div class="eyebrow">What we stand for</div></div>` +
@@ -139,7 +139,11 @@ add('post-05-photo-welcome-1080x1350', 1080, 1350, 'ink',
 add('post-06-photo-pathway-1080x1350', 1080, 1350, 'ink',
   photo('training-hold.jpg', '60% 30%') + fade(35) +
   `<div class="abs" style="left:70px;top:90px"><div class="eyebrow" style="color:#fff">The pathway</div></div>` +
-  `<h1 class="abs" style="left:70px;top:870px;font-size:120px">Show up.<br>Learn. Lead.<br><em>Give back.</em></h1>` + foot('dark'));
+  `<h1 class="abs" style="left:70px;top:870px;font-size:120px">Show up.<br>Stay. Belong.<br><em>Give back.</em></h1>` + foot('dark'));
+add('post-07-community-1080x1350', 1080, 1350, 'ink',
+  photo('training-group.jpg', '72% 50%') + fade(38) +
+  `<h1 class="abs" style="left:70px;top:780px;font-size:96px">Your training partners are <em>your people.</em></h1>` +
+  `<p class="abs" style="left:70px;top:1100px;width:860px;font-size:32px;line-height:1.4;font-weight:500;color:#e9e6df">We help keep people on the mats, because connection helps with loneliness, confidence and mental health.</p>` + foot('dark'));
 add('story-04-photo-1080x1920', 1080, 1920, 'ink',
   photo('black-belts.jpg', '50% 25%') + fade(40) +
   img(logo.markDark, 'right:70px;top:1540px;width:130px') +

@@ -40,7 +40,7 @@ Warm, direct and proud. Short sentences. Speak to people of all ages and backgro
 | `youtube-banner-2560x1440.png` | YouTube banner (key content sits in the central 1546x423 safe area) |
 | `og-share-1200x630.png` | Link preview image (used by the website) |
 | `post-*-1080x1350.png` | Instagram / Facebook feed posts (4:5) |
-| `post-05/06-photo-*` | Photo posts using the images in `images/` |
+| `post-05/06/07-*` | Photo posts using the images in `images/` |
 | `story-*-1080x1920.png` | Stories and Reels covers (keep text clear of top 250px and bottom 340px) |
 | `template-*` / `story-03-*` | Quote and event templates: edit `TEXT` in `build.js` and re-run |
 

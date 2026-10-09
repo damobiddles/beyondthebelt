@@ -14,7 +14,7 @@ Static, single-page charity website plus a full set of social media graphics. No
 3. **Donate**: the Donate buttons currently scroll to the contact form. Set the link on the `data-donate-link` button in `index.html` once a JustGiving, Stripe or similar page exists, and update the note beneath it.
 4. **Charity number** and safeguarding policy link in the contact section and footer (search for `[`).
 5. **Social links**: add handles to the footer once accounts exist.
-6. **Copy**: programme descriptions are sensible starting points. Check them against what the charity really does, and add real photos and impact figures when available.
+6. **Copy**: the "How we help" cards are sensible starting points. Add how financial support works (who can apply, how, what it covers) once decided. Check them against what the charity really does, and add real photos and impact figures when available.
 
 ## Hosting
 Hosted on Netlify, which publishes the `main` branch automatically (see `netlify.toml`). There is no build step.
